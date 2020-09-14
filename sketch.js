@@ -1,6 +1,6 @@
-// IMAGE DRAW
+// Matthew Wizinsky, University of Cincinnati
 // Generative Design Systems
-// Matthew Wizinsky
+//Image01_ Draw Image 
 
 var img;
 
@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(720, 480);
+  createCanvas(windowWidth, windowHeight);
   print(img.width + ' x ' + img.height);
   rectMode(CENTER);
 }
