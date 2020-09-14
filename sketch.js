@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,00;
+  background(255,255,0);
   // change scale by mapping mouseX - makes  a denominator to divid the image size
   var imgScale = map(mouseX, 0, width, 10, 1);
 
